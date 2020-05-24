@@ -1,0 +1,30 @@
+.Dog img {
+    width: 85%; 
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+    padding: 2rem !important;
+    transition: all ease 500ms;
+}
+
+.Dog img:hover {
+    width: 85%; 
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+    padding: 2rem !important;
+    transform: scale(1.01);
+}
+.Dog {
+    padding: 2rem 0;
+}
+.Dog h1 {
+    padding: 2rem;
+}
+
+.DogList .row h1 {
+    color: rgb(226, 160, 252) ;
+    transition: all ease 500ms;
+}
+.DogList .row h1:hover {
+    color: rgb(204, 94, 248);
+    cursor: pointer;
+    text-decoration: underline ;
+    transform: scale(1.1);
+}
